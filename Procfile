@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn importantest.wsgi --log-file -
